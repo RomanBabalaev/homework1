@@ -1,7 +1,7 @@
 <?php
 
 $name = roman;
-$age = 30;
+$age = "30";
 
 echo 'Меня зовут',' ', ($name),'<br>';
 echo 'Мне',' ',($age),' ','лет';
