@@ -1,17 +1,12 @@
 <?php
-define("KONS", 30, true);// Объявляем константу
+define("KONS", 30);// Объявляем константу
 
-
-
-if (defined("KONS") == true );
+if (defined("KONS") ){
 
 echo "Все пошло по плану!"; //Скрипт выведет 'Константа объявлена!'
 
-define("KONS", 35 );// смена значения
-
+}
 echo '<br>', (KONS);
-
-
 
 /**
  * Created by PhpStorm.
