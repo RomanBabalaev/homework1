@@ -6,15 +6,15 @@ $b = "65";
 $c = "1";
 $d = "17";
 
-if($age>=$a and $age<=$b )
+if($age>=$a and $age<=$b ){
     echo 'Вам еще работать и работать';
-
-if ($age>$b )
+}
+if ($age>$b ){
     echo 'Вам пора на пенсию';
-
-if ($age>=$c and $age<=$d )
+}
+if ($age>=$c and $age<=$d ){
     echo 'Вам пора в школу!';
-
+}
 elseif ($age<$c  )
     echo 'Неизвестный возраст';
 /**
