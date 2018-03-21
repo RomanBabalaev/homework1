@@ -1,0 +1,8 @@
+//хэш = соль + md5(соль+пароль)
+//или на PHP:
+function md5WithSalt($pass, $salt = "someDefaultSalt")
+{
+<br>
+$hash = $salt;<br>
+$hash .= md5($salt.$pass); <br> return $hash;<br>
+}
